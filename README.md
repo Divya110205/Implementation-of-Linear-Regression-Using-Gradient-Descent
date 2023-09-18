@@ -94,6 +94,19 @@ print("For population = 70,000, we predict a profit of $"+str(round(predict2,0))
 ## Output:
 ![linear regression using gradient descent](sam.png)
 
+![1](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/07f36042-a753-442a-b95b-9fb0f1b5e28b)
+
+![2](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/1f574425-09eb-4f09-8b76-3e140faef3df)
+
+![3](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/3227b8dc-1a1c-4ab3-9229-a1c4cfa5711f)
+
+![4](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/36c50925-5b12-4e8b-a777-d8feb3274d1e)
+
+![5](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/54370703-0419-4d0d-bce3-939f17cd351a)
+
+![6](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/d2770aad-754b-4589-99e5-594b00a3b08c)
+
+![7](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/98cdfefa-f6f4-483e-9828-c99b2b99ef1d)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
