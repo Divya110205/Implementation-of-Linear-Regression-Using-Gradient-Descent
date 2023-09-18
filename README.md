@@ -85,7 +85,7 @@ def predict(x,theta):
   return predictions[0]
 
 predict1=predict(np.array([1,3.5]),theta)*10000
-print("For population = 35,000, we predict a profit of $"+str(round(predict1,0)))vv
+print("For population = 35,000, we predict a profit of $"+str(round(predict1,0)))
 
 predict2=predict(np.array([1,7]),theta)*10000
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0)))
