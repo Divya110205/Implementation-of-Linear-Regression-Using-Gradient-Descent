@@ -27,6 +27,7 @@ import pandas as pd
 
 data=pd.read_csv('/content/ex1.txt',header=None)
 
+# Profit Prediction Graph:
 plt.scatter(data[0],data[1])
 plt.xticks(np.arange(5,30,step=5))
 plt.yticks(np.arange(5,30,step=5))
@@ -34,6 +35,7 @@ plt.xlabel("Population of City (10,000s)")
 plt.ylabel("Profit ($10,000)")
 plt.title("Profit Prediction")
 
+# Compute Cost Value:
 def computeCost(X,y,theta):
   m=len(y)
   h=X.dot(theta)
@@ -49,6 +51,7 @@ theta=np.zeros((2,1))
 
 computeCost(X,y,theta)
 
+# h(x) Value:
 def gradientDescent(X,y,theta,alpha,num_iters):
   m=len(y)
   j_history=[]
@@ -63,11 +66,13 @@ def gradientDescent(X,y,theta,alpha,num_iters):
 theta,j_history = gradientDescent(X,y,theta,0.01,1500)
 print("h(x) ="+str(round(theta[0,0],2))+" + "+str(round(theta[1,0],2))+"x1")
 
+# Cost Function Using Gradient Descent Graph: 
 plt.plot(j_history)
 plt.xlabel("Iteration")
 plt.ylabel("$j(\Theta)$")
 plt.title("Cost function using Gradient Descent")
 
+# Profit Prediction Graph:
 plt.scatter(data[0],data[1])
 x_value=[x for x in range(25)]
 y_value=[y*theta[1]+theta[0] for y in x_value]
@@ -78,6 +83,7 @@ plt.xlabel("Population of City (10,000s)")
 plt.ylabel("Profit ($10,000)")
 plt.title("Profit Prediction")
 
+# Profit For The Population 35,000:
 def predict(x,theta):
 
   predictions=np.dot(theta.transpose(),x)
@@ -87,6 +93,7 @@ def predict(x,theta):
 predict1=predict(np.array([1,3.5]),theta)*10000
 print("For population = 35,000, we predict a profit of $"+str(round(predict1,0)))
 
+# Profit For The Population 70,000:
 predict2=predict(np.array([1,7]),theta)*10000
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0)))
 ```
