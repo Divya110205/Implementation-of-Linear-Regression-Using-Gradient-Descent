@@ -101,7 +101,7 @@ print("For population = 70,000, we predict a profit of $"+str(round(predict2,0))
 ### h(x) Value:
 ![3](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/daaea630-af1b-4cf8-8b10-5954420b6402)
 
-### Cost Function Using Gradient Descent: 
+### Cost Function Using Gradient Descent Graph: 
 ![4](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/9da26a5c-4bfc-4980-b409-663f6c60f0d8)
 
 ### Profit Prediction Graph:
