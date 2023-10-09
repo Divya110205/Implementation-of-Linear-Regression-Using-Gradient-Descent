@@ -100,25 +100,25 @@ print("For population = 70,000, we predict a profit of $"+str(round(predict2,0))
 
 ## Output:
 ### Profit Prediction Graph:
-![1](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/ee154d34-a173-431c-9b2f-1acd74e69647)
+![1](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/5def3de3-c787-4539-b032-753d3f69c915)
 
 ### Compute Cost Value:
-![2](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/ce5bf80f-56df-4e5b-aca8-1ea60d9b2f1e)
+![2](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/4a8ed7a7-672f-4838-a4f6-b3cd5096941f)
 
 ### h(x) Value:
-![3](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/daaea630-af1b-4cf8-8b10-5954420b6402)
+![3](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/cc6e8097-2528-4c9c-870e-a29b24d70f10)
 
 ### Cost Function Using Gradient Descent Graph: 
-![4](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/9da26a5c-4bfc-4980-b409-663f6c60f0d8)
+![4](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/6da0e301-c9f2-4264-802f-498cfdcb50dc)
 
 ### Profit Prediction Graph:
-![5](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/ec8b7230-395e-45f9-bca4-8dfbbc487665)
+![5](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/0077dd6c-4d15-4e58-bdcd-da4f94b11da2)
 
 ### Profit For The Population 35,000:
-![6](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/35c73450-b194-44bd-af3a-284891326df1)
+![6](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/7f3e10d9-82b7-4ccd-b212-93269247a898)
 
 ### Profit For The Population 70,000:
-![7](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/a486074e-d669-4d0f-9092-78aa7b7be4be)
+![7](https://github.com/Divya110205/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119404855/5f6a0a22-3353-470e-bd52-ccef72103a4a)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
